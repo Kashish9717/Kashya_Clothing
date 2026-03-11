@@ -1,0 +1,12 @@
+=> index.html contains : navbar and page 1
+
+Loco motive js library { scroll }
+
+=> color zilla extension
+
+=> gsap cdn { for doing work in js}
+
+=> remix icon : github cdn copy
+
+
+=>Html file ko main index me krne ke lie

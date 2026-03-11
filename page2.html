@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kashya - Blue Theme</title>
+
+<style>
+
+/* -------------------- PAGE 2 SECTION -------------------- */
+
+#page2{
+    height: 100%; 
+    width: 100%;
+    background-color: #EAF4FF;   /* Light Blue Background */
+    /* background: linear-gradient(#EAF4FF, #C5E3FF, #FFFFFF); */
+    border-top: 1px solid #B6D4F7;
+    padding: 0vw 3vw; 
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* heading takes full row */
+#page2 h2 {
+  width: 100%;
+  text-align: center;
+  margin-top: 15px;
+  font-size: 32px;
+  color: #1E3A5F;   /* Deep Navy */
+}
+
+/* left + right boxes */
+
+/* ---------------- LEFT BOX ---------------- */
+
+#page2-left{
+  height: 800%;
+  width: 48%;
+  background-color: #4f708f;   /* Soft Pastel Blue */
+  border-radius: 20px; 
+  align-items: flex-start;
+}
+
+#left-p1{
+    color: #f3f4f7; 
+    padding: 40px; 
+}
+
+#left-p2{
+    color: #000000;   /* Accent Blue */
+    padding: 40px; 
+    font-size: 20px;
+    align-items: flex-end; 
+    margin-top: 40%;
+}
+
+/* -------------------------------------------------------- */
+/* ---------------- RIGHT BOX ---------------- */
+
+#page2-right {
+  height: 80%; 
+  width: 48%; 
+  background-color: #4f708f;   /* Slightly deeper blue */
+  border-radius: 20px;
+}
+
+.right-list {  
+  position: relative; 
+  padding-top: 1vw; 
+  padding-bottom: 1vw; 
+}
+
+.right-list p{
+    font-size: 22px; 
+    font-family: sans-serif;
+    color: #ffffff;
+}
+
+.right-list img{
+    opacity: 0;     /* image hidden */
+    height: 5vw; 
+    width: 5vw; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    position: static;
+
+    /*  for js  */
+    scale:0;
+}
+
+/* NOW IN JS : We will work for image feature */
+
+</style>
+
+</head>
+
+<body>
+
+<div id="page2">
+  
+<h2> WHY CHOOSE KASHYA!! </h2> 
+
+<div id="page2-left">
+
+<p id="left-p1">
+Kashya is more than fashion — <br> <br>
+it’s expression. We design pieces that blend
+modern elegance with everyday comfort, empowering you to wear your confidence.
+Every fabric, every stitch, every silhouette is created to feel premium,
+effortless, and uniquely you.
+</p>
+
+<p id="left-p2">
+Our goal is simple: timeless styles that move with your lifestyle. Whether
+you’re dressing for a moment or making one —<br>
+Kashya is designed to stand out without trying too hard.
+</p>
+
+</div>
+
+<div id="page2-right">
+
+<div class="right-list">
+  <p>✨KASHYA is a celebration of Personal Style - where comfort meets confidence and every piece is designed to feel like you...</p>
+  <img src="images/conifent.jpg" alt="image">
+</div>
+ 
+<div class="right-list">
+  <p>✨ Modern silhouettes with timeless appeal</p>
+  <img src="images/cart.jpg" alt="image">
+</div>
+
+<div class="right-list">
+  <p>✨ Designed for comfort + confidence</p>
+  <img src="images/short kurti.jpg" alt="image">
+</div>
+
+<div class="right-list">
+  <p>✨ Detail-focused craftsmanship</p>
+  <img src="images/design.jpg" alt="image">
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>

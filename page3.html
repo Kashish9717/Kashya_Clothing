@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kashya - Page3 Blue Theme</title>
+
+    <!-- <link rel="stylesheet" href="page3.css"> -->
+
+    <style>
+
+/* -------------------- PAGE 3 SECTION -------------------- */
+
+#page3{
+    background-color: #EAF4FF;  /* Light Blue Base */
+    height: 90vh; 
+    width: 100%; 
+    position: relative;
+
+    background-image: url("images/backpage3.jpg");
+    background-size: cover;
+    background-position: center;
+
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+/* -------------------- VIDEO -------------------- */
+
+#page3 video{
+    height: 100%; 
+    width: 100%; 
+    position: absolute; 
+    object-fit: cover;
+
+    transform: scaleX(0.7) scaleY(0);
+    border-radius: 30px;
+
+    opacity: 0;
+    /* pointer-events: none;   👈 important */
+
+    transition: all 0.4s ease;
+
+    z-index: 5;
+}
+
+/* -------------------- CENTER CONTENT -------------------- */
+
+.page3-center{
+    /* background-color: rgb(178, 48, 48); */
+    display: flex; 
+    align-items: center; 
+    flex-direction: column;
+    padding: 8px;
+
+    z-index: 2;
+}
+
+/* -------------------- PLAY ICON CIRCLE -------------------- */
+
+.page3-center .icon{
+ display: flex; 
+ align-items: center; 
+ justify-content: center;
+
+ padding:12px; 
+ background-color: white;    
+ border-radius: 50%; 
+
+ box-shadow: 0px 10px 25px rgba(30, 58, 95, 0.2);  /* Soft blue shadow */
+}
+
+.page3-center .icon i{
+   color: #1E3A5F;   /* Deep Navy */
+   font-size: 4vw;
+}
+
+/* -------------------- BUTTON TEXT -------------------- */
+
+.page3-center h5{
+    font-size: 1vw; 
+    font-weight: 900; 
+    border-radius: 50px; 
+    text-transform: uppercase;
+
+    background-color: white; 
+    color: #1E3A5F;   /* Deep Blue */
+    padding: 10px 26px 10px 26px; 
+    margin-top: 0.7vw;
+
+    opacity: 0; 
+    transition: all ease 0.5s; 
+    transform: translateY(20%);
+}
+
+/* Hover Effect */
+
+.page3-center:hover h5{
+    opacity: 1;
+    transform: translateY(0%);
+}
+
+    </style>
+</head>
+
+<body>
+    
+<div id="page3">
+
+    <video src="images/bannervideo.mp4"></video>
+
+    <div class="page3-center">
+
+        <div class="icon">
+            <i class="ri-play-fill"></i>
+        </div>
+
+        <h5>View Video!!</h5>
+
+    </div>
+
+</div>
+
+</body>
+</html>
