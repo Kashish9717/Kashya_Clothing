@@ -1,149 +1,158 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Kashya - Blue Theme</title>
+<!-- -------------------- PAGE 2 SECTION -------------------- -->
+<div class="page2-section py-5">
+  <div class="container py-4">
+    <!-- Section Header -->
+    <div class="text-center mb-5">
+      <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-3 py-2 rounded-pill fw-semibold text-uppercase tracking-wide mb-2">
+        <i class="bi bi-stars me-1"></i> Craftsmanship & Vision
+      </span>
+      <h2 class="section-heading text-dark fw-bold display-5">Why Choose Kashya?</h2>
+      <div class="heading-line mx-auto"></div>
+    </div>
+
+    <div class="row g-4 align-items-stretch">
+      <!-- Left Box / Story Card -->
+      <div class="col-lg-6">
+        <div class="story-card h-100 p-4 p-md-5 d-flex flex-column justify-content-between shadow-sm">
+          <div>
+            <div class="d-flex align-items-center gap-3 mb-4">
+              <span class="icon-circle bg-primary text-white">
+                <i class="bi bi-quote fs-4"></i>
+              </span>
+              <h3 class="h4 text-dark mb-0 fw-bold">The Kashya Promise</h3>
+            </div>
+            <p class="story-text text-muted">
+              <strong class="text-dark">Kashya is more than fashion — it’s self-expression.</strong> We curate and craft pieces that seamlessly harmonize modern elegance with everyday comfort, empowering you to wear your confidence every single day.
+            </p>
+            <p class="story-text text-muted">
+              Every fabric is hand-selected, every stitch meticulously placed, and every silhouette tested to ensure timeless wearability.
+            </p>
+          </div>
+
+          <div class="story-highlight p-3 rounded-4 mt-4 bg-light border border-primary-subtle">
+            <div class="d-flex align-items-center gap-3">
+              <i class="bi bi-shield-check text-primary fs-3"></i>
+              <div>
+                <h5 class="text-dark mb-1 fs-6 fw-bold">100% Quality Inspected</h5>
+                <p class="text-muted small mb-0">Premium dyes, breathable cotton, and rich silk blends.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Box / Interactive Hover List -->
+      <div class="col-lg-6">
+        <div class="interactive-card h-100 p-4 p-md-5 shadow-sm">
+          <h4 class="text-dark fw-bold mb-4 d-flex align-items-center justify-content-between">
+            <span>Experience Highlights</span>
+            <span class="badge bg-primary-subtle text-primary fs-7 rounded-pill">Hover to preview</span>
+          </h4>
+
+          <div class="interactive-list d-flex flex-column gap-3">
+            <div class="right-list p-3 rounded-3" data-product-title="Personal Style">
+              <div class="d-flex justify-content-between align-items-center">
+                <p class="mb-0 fw-semibold text-dark">✨ Personal Style & Confident Silhouettes</p>
+                <i class="bi bi-arrow-up-right-circle text-primary fs-5"></i>
+              </div>
+              <img src="images/conifent.jpg" alt="Confident Fit" class="hover-floating-img shadow-lg">
+            </div>
+
+            <div class="right-list p-3 rounded-3" data-product-title="Modern Silhouettes">
+              <div class="d-flex justify-content-between align-items-center">
+                <p class="mb-0 fw-semibold text-dark">✨ Modern Cuts with Timeless Traditional Appeal</p>
+                <i class="bi bi-arrow-up-right-circle text-primary fs-5"></i>
+              </div>
+              <img src="images/cart.jpg" alt="Shopping Quality" class="hover-floating-img shadow-lg">
+            </div>
+
+            <div class="right-list p-3 rounded-3" data-product-title="Signature Kurtis">
+              <div class="d-flex justify-content-between align-items-center">
+                <p class="mb-0 fw-semibold text-dark">✨ Designed for Comfort + Everyday Grace</p>
+                <i class="bi bi-arrow-up-right-circle text-primary fs-5"></i>
+              </div>
+              <img src="images/short kurti.jpg" alt="Short Kurti" class="hover-floating-img shadow-lg">
+            </div>
+
+            <div class="right-list p-3 rounded-3" data-product-title="Craftsmanship">
+              <div class="d-flex justify-content-between align-items-center">
+                <p class="mb-0 fw-semibold text-dark">✨ Detail-Focused Artisanal Craftsmanship</p>
+                <i class="bi bi-arrow-up-right-circle text-primary fs-5"></i>
+              </div>
+              <img src="images/design.jpg" alt="Design Art" class="hover-floating-img shadow-lg">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 <style>
-
-/* -------------------- PAGE 2 SECTION -------------------- */
-
-#page2{
-    height: 100%; 
-    width: 100%;
-    background-color: #EAF4FF;   /* Light Blue Background */
-    /* background: linear-gradient(#EAF4FF, #C5E3FF, #FFFFFF); */
-    border-top: 1px solid #B6D4F7;
-    padding: 0vw 3vw; 
-    flex-wrap: wrap;
-    display: flex;
-    justify-content: space-between;
+/* Page 2 Light Theme */
+.page2-section {
+  background: linear-gradient(180deg, #F4F8FC 0%, #FFFFFF 100%);
+  position: relative;
 }
 
-/* heading takes full row */
-#page2 h2 {
-  width: 100%;
-  text-align: center;
-  margin-top: 15px;
-  font-size: 32px;
-  color: #1E3A5F;   /* Deep Navy */
+.heading-line {
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(90deg, #2563EB, #60A5FA);
+  border-radius: 10px;
+  margin-top: 12px;
 }
 
-/* left + right boxes */
-
-/* ---------------- LEFT BOX ---------------- */
-
-#page2-left{
-  height: 800%;
-  width: 48%;
-  background-color: #4f708f;   /* Soft Pastel Blue */
-  border-radius: 20px; 
-  align-items: flex-start;
+.story-card, .interactive-card {
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 24px;
+  transition: transform 0.3s ease, border-color 0.3s ease;
 }
 
-#left-p1{
-    color: #f3f4f7; 
-    padding: 40px; 
+.story-card:hover, .interactive-card:hover {
+  border-color: #93C5FD;
 }
 
-#left-p2{
-    color: #000000;   /* Accent Blue */
-    padding: 40px; 
-    font-size: 20px;
-    align-items: flex-end; 
-    margin-top: 40%;
+.icon-circle {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-/* -------------------------------------------------------- */
-/* ---------------- RIGHT BOX ---------------- */
-
-#page2-right {
-  height: 80%; 
-  width: 48%; 
-  background-color: #4f708f;   /* Slightly deeper blue */
-  border-radius: 20px;
+.story-text {
+  font-size: 15.5px;
+  line-height: 1.8;
 }
 
-.right-list {  
-  position: relative; 
-  padding-top: 1vw; 
-  padding-bottom: 1vw; 
+.interactive-list .right-list {
+  position: relative;
+  background: #F8FAFC;
+  border: 1px solid #E2E8F0;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
-.right-list p{
-    font-size: 22px; 
-    font-family: sans-serif;
-    color: #ffffff;
+.interactive-list .right-list:hover {
+  background: #EFF6FF;
+  border-color: #93C5FD;
+  transform: translateX(6px);
 }
 
-.right-list img{
-    opacity: 0;     /* image hidden */
-    height: 5vw; 
-    width: 5vw; 
-    border-radius: 50%; 
-    object-fit: cover; 
-    position: static;
-
-    /*  for js  */
-    scale:0;
+.hover-floating-img {
+  position: fixed;
+  opacity: 0;
+  scale: 0;
+  height: 110px;
+  width: 110px;
+  border-radius: 16px;
+  object-fit: cover;
+  pointer-events: none;
+  z-index: 1000;
+  border: 3px solid #FFFFFF;
+  box-shadow: 0 10px 25px rgba(30, 58, 138, 0.2);
 }
-
-/* NOW IN JS : We will work for image feature */
-
 </style>
-
-</head>
-
-<body>
-
-<div id="page2">
-  
-<h2> WHY CHOOSE KASHYA!! </h2> 
-
-<div id="page2-left">
-
-<p id="left-p1">
-Kashya is more than fashion — <br> <br>
-it’s expression. We design pieces that blend
-modern elegance with everyday comfort, empowering you to wear your confidence.
-Every fabric, every stitch, every silhouette is created to feel premium,
-effortless, and uniquely you.
-</p>
-
-<p id="left-p2">
-Our goal is simple: timeless styles that move with your lifestyle. Whether
-you’re dressing for a moment or making one —<br>
-Kashya is designed to stand out without trying too hard.
-</p>
-
-</div>
-
-<div id="page2-right">
-
-<div class="right-list">
-  <p>✨KASHYA is a celebration of Personal Style - where comfort meets confidence and every piece is designed to feel like you...</p>
-  <img src="images/conifent.jpg" alt="image">
-</div>
- 
-<div class="right-list">
-  <p>✨ Modern silhouettes with timeless appeal</p>
-  <img src="images/cart.jpg" alt="image">
-</div>
-
-<div class="right-list">
-  <p>✨ Designed for comfort + confidence</p>
-  <img src="images/short kurti.jpg" alt="image">
-</div>
-
-<div class="right-list">
-  <p>✨ Detail-focused craftsmanship</p>
-  <img src="images/design.jpg" alt="image">
-</div>
-
-</div>
-
-</div>
-
-</body>
-</html>

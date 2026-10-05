@@ -3,172 +3,425 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kashya.in</title>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>Kashya.in - Luxury Women's Couture</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap 5.3 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons & FontAwesome & RemixIcon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
    
-  <link rel="stylesheet" href="indexStyle.css">
-    <!-- ICON -->
-    <link  href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="indexStyle.css">
 </head>
 <body>
-      <!-- THIS IS MY MAIN AND FIRST PAGE1  -->
-  <div>
-     <nav>
-        <!-- <h2>Github Adding</h2> -->
-        <div class="logo">Kashya<span>.in</span></div>
-        <div class="nav-part2">
-        <div class="nav-elem">
-    <h4>All Collection</h4>
-    <h5><a href="#"><span>Women's Wardrobe </span></a></h5>
-</div>
-
-<div class="nav-elem">
-    <h4>Kurti Collection</h4>
-    <h5><a href="#"><span>Short Kurti</span></a></h5>
-    <h5><a href="#"><span>Flared Kurti</span></a></h5>
-    <h5><a href="#"><span>Jacket Style Kurti</span></a></h5>
-    <h5><a href="#"><span>Long Kurti</span></a></h5>
-    <h5><a href="#"><span>All Kurtis</span></a></h5>
-</div>
-
-<div class="nav-elem">
-    <h4>Tops Collection</h4>
-    <h5><a href="#"><span>Crop Top</span></a></h5>
-    <h5><a href="#"><span>Party Wear</span></a></h5>
-    <h5><a href="#"><span>Tunic Top</span></a></h5>
-    <h5><a href="#"><span>All Tops</span></a></h5>
-</div>
-
-<div class="nav-elem">
-    <h4>Dress Collection</h4>
-    <h5><a href="#"><span>Fit & Flare Dress</span></a></h5>
-    <h5><a href="#"><span>Layered Dress</span></a></h5>
-    <h5><a href="#"><span>2 in 1 Dress</span></a></h5>
-    <h5><a href="#"><span>All Dress</span></a></h5>
-</div>
-
-<div class="nav-elem">
-    <h4>Accessory</h4>
-    <h5><a href="#"><span>Earring</span></a></h5>
-    <h5><a href="#"><span>Bows</span></a></h5>
-    <h5><a href="#"><span>Lockets</span></a></h5>
-    <h5><a href="#"><span>Other</span></a></h5>
-</div>
-
-             <div class="nav-elem">
-                <h4><a href="" style="color: black; text-decoration: none;" >Contact</a></h4></div>
-
+    <!-- Toast Notification Container -->
+    <div class="toast-container position-fixed bottom-0 end-0 p-3" style="z-index: 1090;">
+        <div id="kashyaToast" class="toast align-items-center text-bg-primary border-0 shadow-lg" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="d-flex">
+                <div class="toast-body d-flex align-items-center gap-2">
+                    <i class="bi bi-bag-check-fill fs-5 text-warning"></i>
+                    <span id="toastMessage">Welcome to Kashya.in!</span>
+                </div>
+                <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
             </div>
- <div id="nav-bottom"></div>
-   <div class="auth-buttons">
-    <a href="#" class="btn-login">Login</a>
-    <a href="#" class="btn-register">Register</a>
-</div>
-
- </nav>
-</div>
-
-<!-- ------------------------------------------------  PAGE 1 HOME    --------------------------------------- -->
-    <div id="main"> 
-
-<div id="page1">
-  
-    <img src="c:\Users\Kasish Saxena\Downloads\Animate_two_product_202602172044_5ixyg.mp4" alt="">
-
-    <h1>Welcome to Kashya.in <span style="border: 2px solid rgb(202, 202, 198); border-radius: 50%; background-color: red; padding: 5px;"><i class="fa-solid fa-shirt"></i></span> </h1> 
-   
-    <h2>Where Every Outfit Tells a Story <i class="fa-solid fa-bag-shopping"></i>  </h2>
-
-    <p>Kashya brings elegant, modern fashion for today’s confident women.  </p>
-        <p> Explore beautifully crafted kurtis, stylish tops, dresses, and accessories designed with comfort, quality, and timeless style. </p>
-
-  <div class="page1-bt">
-    <h4>Brand Details</h4>
-    <h4>User Experience</h4>
-    <h4>Products Design</h4>
-  </div>
-
-
-
-<!-- -----------------------------   MOING DIV  ------------------------------------- -->
-
-<!-- <div id="moving-div">
-    <div class="move">
-       <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b" alt="">
-       <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d" alt="">
-       <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b" alt="">
-       <img src="https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb" alt="">
-       <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f" alt="">
+        </div>
     </div>
-</div> -->
 
+    <!-- MAIN NAVBAR (Light Responsive Theme) -->
+    <header class="header-nav-wrapper">
+        <nav class="navbar navbar-expand-lg navbar-light kashya-navbar py-2 px-lg-4 px-2">
+            <div class="container-fluid">
+                <!-- Brand Logo -->
+                <a class="navbar-brand logo me-4" href="index.html">
+                    Kashya<span>.in</span>
+                </a>
 
-<div id="moving-div">
-    <div id="blur-left"></div>
-  <div class="move">
+                <!-- Mobile Toggle Button -->
+                <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#kashyaNavMenu" aria-controls="kashyaNavMenu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-    <img src="https://cdn.jsdelivr.net/npm/lucide-static/icons/shirt.svg">
-    <img src="https://cdn.jsdelivr.net/npm/lucide-static/icons/shopping-bag.svg">
-    <img src="https://cdn.jsdelivr.net/npm/lucide-static/icons/scissors.svg">
-    <img src="https://cdn.jsdelivr.net/npm/lucide-static/icons/star.svg">
-    <img src="https://cdn.jsdelivr.net/npm/lucide-static/icons/sparkles.svg">
-     <img src="https://cdn.jsdelivr.net/npm/lucide-static/icons/shirt.svg">
-    <img src="https://cdn.jsdelivr.net/npm/lucide-static/icons/shopping-bag.svg">
-    <img src="https://cdn.jsdelivr.net/npm/lucide-static/icons/scissors.svg">
-    <img src="https://cdn.jsdelivr.net/npm/lucide-static/icons/star.svg">
-    <img src="https://cdn.jsdelivr.net/npm/lucide-static/icons/sparkles.svg">
-    <img src="https://cdn.jsdelivr.net/npm/lucide-static/icons/scissors.svg">
-    <img src="https://cdn.jsdelivr.net/npm/lucide-static/icons/star.svg">
-    <img src="https://cdn.jsdelivr.net/npm/lucide-static/icons/sparkles.svg">
+                <!-- Nav Menu Items -->
+                <div class="collapse navbar-collapse" id="kashyaNavMenu">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-lg-1">
+                        <!-- All Collection -->
+                        <li class="nav-item dropdown custom-nav-dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Collections
+                            </a>
+                            <ul class="dropdown-menu glass-dropdown">
+                                <li><a class="dropdown-item" href="#page2"><i class="bi bi-stars me-2 text-warning"></i>Women's Wardrobe</a></li>
+                                <li><a class="dropdown-item" href="#shopCatalog"><i class="bi bi-fire me-2 text-danger"></i>Summer '26 Drop</a></li>
+                                <li><a class="dropdown-item" href="#page4"><i class="bi bi-collection-play me-2 text-primary"></i>3D Runway Booth</a></li>
+                            </ul>
+                        </li>
 
+                        <!-- Kurtis -->
+                        <li class="nav-item dropdown custom-nav-dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Kurtis
+                            </a>
+                            <ul class="dropdown-menu glass-dropdown">
+                                <li><a class="dropdown-item" href="#shopCatalog" onclick="filterCatalog('kurti')">Short Kurtis</a></li>
+                                <li><a class="dropdown-item" href="#shopCatalog" onclick="filterCatalog('kurti')">Flared Kurtis</a></li>
+                                <li><a class="dropdown-item" href="#shopCatalog" onclick="filterCatalog('kurti')">Jacket Style Kurtis</a></li>
+                                <li><a class="dropdown-item" href="#shopCatalog" onclick="filterCatalog('kurti')">Long Kurtis</a></li>
+                            </ul>
+                        </li>
 
-  </div>
+                        <!-- Tops & Blouses -->
+                        <li class="nav-item dropdown custom-nav-dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Tops & Blouses
+                            </a>
+                            <ul class="dropdown-menu glass-dropdown">
+                                <li><a class="dropdown-item" href="#shopCatalog" onclick="filterCatalog('top')">Crop Tops</a></li>
+                                <li><a class="dropdown-item" href="#shopCatalog" onclick="filterCatalog('top')">Party Wear</a></li>
+                                <li><a class="dropdown-item" href="#shopCatalog" onclick="filterCatalog('top')">Tunic Tops</a></li>
+                                <li><a class="dropdown-item" href="#shopCatalog" onclick="filterCatalog('top')">Silk Blouses</a></li>
+                            </ul>
+                        </li>
 
-  <div class="move">
+                        <!-- Dresses & Festive -->
+                        <li class="nav-item dropdown custom-nav-dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Dresses & Festive
+                            </a>
+                            <ul class="dropdown-menu glass-dropdown">
+                                <li><a class="dropdown-item" href="#shopCatalog" onclick="filterCatalog('dress')">Fit & Flare Dresses</a></li>
+                                <li><a class="dropdown-item" href="#shopCatalog" onclick="filterCatalog('dress')">Layered Gowns</a></li>
+                                <li><a class="dropdown-item" href="#shopCatalog" onclick="filterCatalog('festive')">Midnight Lehengas</a></li>
+                            </ul>
+                        </li>
 
-    <img src="https://cdn.jsdelivr.net/npm/lucide-static/icons/shirt.svg">
-    <img src="https://cdn.jsdelivr.net/npm/lucide-static/icons/shopping-bag.svg">
-    <img src="https://cdn.jsdelivr.net/npm/lucide-static/icons/scissors.svg">
-    <img src="https://cdn.jsdelivr.net/npm/lucide-static/icons/star.svg">
-    <img src="https://cdn.jsdelivr.net/npm/lucide-static/icons/sparkles.svg">
-     <img src="https://cdn.jsdelivr.net/npm/lucide-static/icons/shirt.svg">
-    <img src="https://cdn.jsdelivr.net/npm/lucide-static/icons/sparkles.svg">
-     <img src="https://cdn.jsdelivr.net/npm/lucide-static/icons/shirt.svg">
-    <img src="https://cdn.jsdelivr.net/npm/lucide-static/icons/shopping-bag.svg">
-    <img src="https://cdn.jsdelivr.net/npm/lucide-static/icons/shopping-bag.svg">
-    <img src="https://cdn.jsdelivr.net/npm/lucide-static/icons/scissors.svg">
-    <img src="https://cdn.jsdelivr.net/npm/lucide-static/icons/star.svg">
-    <img src="https://cdn.jsdelivr.net/npm/lucide-static/icons/sparkles.svg">
-</div>
- 
+                        <li class="nav-item">
+                            <a class="nav-link" href="#shopCatalog">All Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#page3">Runway Video</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#footer">Contact</a>
+                        </li>
+                    </ul>
 
-     <div id="blur-right"></div>
+                    <!-- Right Quick Actions -->
+                    <div class="d-flex align-items-center gap-2 mt-3 mt-lg-0">
+                        <!-- Search Trigger -->
+                        <button class="btn-nav-icon" data-bs-toggle="modal" data-bs-target="#searchModal" title="Search catalog">
+                            <i class="bi bi-search"></i>
+                        </button>
+                        <!-- Offcanvas Cart Trigger -->
+                        <button class="btn-nav-icon position-relative" data-bs-toggle="offcanvas" data-bs-target="#cartOffcanvas" title="Shopping Bag">
+                            <i class="bi bi-bag-heart"></i>
+                            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger" id="cartCount">0</span>
+                        </button>
+                        <!-- Auth Modals -->
+                        <button class="btn-login" data-bs-toggle="modal" data-bs-target="#authModal" data-auth-mode="login">Login</button>
+                        <button class="btn-register" data-bs-toggle="modal" data-bs-target="#authModal" data-auth-mode="register">Register</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
 
-</div>
-</div>
+    <!-- MAIN CONTENT -->
+    <main id="main">
+        <!-- ================= PAGE 1 HERO ================= -->
+        <section id="page1" class="position-relative d-flex flex-column justify-content-center align-items-center text-center">
+            <!-- Hero Announcement -->
+            <div class="hero-badge-pill mb-3">
+                <span class="badge-dot"></span> New Summer '26 Collection Live
+            </div>
 
+            <h1 class="hero-title">
+                Welcome to Kashya<span class="dot-accent">.in</span>
+                <span class="hero-icon-badge shadow">
+                    <i class="fa-solid fa-shirt"></i>
+                </span>
+            </h1>
 
+            <h2 class="hero-subtitle">
+                Where Every Outfit Tells a Story <i class="fa-solid fa-bag-shopping ms-1"></i>
+            </h2>
 
-<div id="page2"></div>
+            <p class="hero-desc">
+                Kashya brings elegant, modern fashion for today’s confident women. Explore beautifully crafted kurtis, stylish tops, dresses, and accessories designed with comfort, quality, and timeless style.
+            </p>
 
+            <!-- Action Pills -->
+            <div class="page1-bt d-flex flex-wrap justify-content-center gap-3">
+                <a href="#shopCatalog" class="hero-btn btn-primary-glow"><i class="bi bi-bag-check me-2"></i>Shop Catalog</a>
+                <a href="#page4" class="hero-btn"><i class="bi bi-collection-play me-2"></i>3D Showcase</a>
+                <a href="#page3" class="hero-btn"><i class="bi bi-play-circle me-2"></i>Runway Film</a>
+            </div>
 
-<div id="page3" ></div>
+            <!-- INFINITE TICKER STRIP -->
+            <div id="moving-div">
+                <div id="blur-left"></div>
+                <div class="move">
+                    <img src="https://cdn.jsdelivr.net/npm/lucide-static/icons/shirt.svg" alt="icon">
+                    <img src="https://cdn.jsdelivr.net/npm/lucide-static/icons/shopping-bag.svg" alt="icon">
+                    <img src="https://cdn.jsdelivr.net/npm/lucide-static/icons/scissors.svg" alt="icon">
+                    <img src="https://cdn.jsdelivr.net/npm/lucide-static/icons/star.svg" alt="icon">
+                    <img src="https://cdn.jsdelivr.net/npm/lucide-static/icons/sparkles.svg" alt="icon">
+                    <img src="https://cdn.jsdelivr.net/npm/lucide-static/icons/shirt.svg" alt="icon">
+                    <img src="https://cdn.jsdelivr.net/npm/lucide-static/icons/shopping-bag.svg" alt="icon">
+                    <img src="https://cdn.jsdelivr.net/npm/lucide-static/icons/scissors.svg" alt="icon">
+                    <img src="https://cdn.jsdelivr.net/npm/lucide-static/icons/star.svg" alt="icon">
+                    <img src="https://cdn.jsdelivr.net/npm/lucide-static/icons/sparkles.svg" alt="icon">
+                </div>
+                <div class="move">
+                    <img src="https://cdn.jsdelivr.net/npm/lucide-static/icons/shirt.svg" alt="icon">
+                    <img src="https://cdn.jsdelivr.net/npm/lucide-static/icons/shopping-bag.svg" alt="icon">
+                    <img src="https://cdn.jsdelivr.net/npm/lucide-static/icons/scissors.svg" alt="icon">
+                    <img src="https://cdn.jsdelivr.net/npm/lucide-static/icons/star.svg" alt="icon">
+                    <img src="https://cdn.jsdelivr.net/npm/lucide-static/icons/sparkles.svg" alt="icon">
+                    <img src="https://cdn.jsdelivr.net/npm/lucide-static/icons/shirt.svg" alt="icon">
+                    <img src="https://cdn.jsdelivr.net/npm/lucide-static/icons/shopping-bag.svg" alt="icon">
+                    <img src="https://cdn.jsdelivr.net/npm/lucide-static/icons/scissors.svg" alt="icon">
+                    <img src="https://cdn.jsdelivr.net/npm/lucide-static/icons/star.svg" alt="icon">
+                    <img src="https://cdn.jsdelivr.net/npm/lucide-static/icons/sparkles.svg" alt="icon">
+                </div>
+                <div id="blur-right"></div>
+            </div>
+        </section>
 
-<div id="page4"></div>
+        <!-- Container Sections loaded asynchronously -->
+        <section id="page2"></section>
 
-</div>
+        <!-- ================= FULL SHOPPING PRODUCT CATALOG GRID ================= -->
+        <section id="shopCatalog" class="py-5 catalog-section">
+            <div class="container py-4">
+                <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-end mb-4 gap-3">
+                    <div>
+                        <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-3 py-2 rounded-pill fw-semibold text-uppercase tracking-wide mb-2">
+                            <i class="bi bi-grid-3x3-gap-fill me-1"></i> Store Collection
+                        </span>
+                        <h2 class="text-dark fw-bold display-6 mb-1">Explore Full Wardrobe</h2>
+                        <p class="text-muted small mb-0">Browse our signature kurtis, tops, party gowns, and artisanal accessories</p>
+                    </div>
 
+                    <!-- Filter Tabs -->
+                    <div class="catalog-filters d-flex flex-wrap gap-2">
+                        <button class="filter-btn active" onclick="filterCatalog('all', this)">All</button>
+                        <button class="filter-btn" onclick="filterCatalog('kurti', this)">Kurtis</button>
+                        <button class="filter-btn" onclick="filterCatalog('top', this)">Tops & Blouses</button>
+                        <button class="filter-btn" onclick="filterCatalog('dress', this)">Dresses</button>
+                        <button class="filter-btn" onclick="filterCatalog('festive', this)">Festive & Lehenga</button>
+                    </div>
+                </div>
 
+                <!-- Products Grid -->
+                <div class="row g-4" id="productsGridContainer">
+                    <!-- Products rendered by JS -->
+                </div>
+            </div>
+        </section>
 
-  <!-- Footer load hoga yaha -->
-  <div id="footer"></div>
+        <section id="page3"></section>
+        <section id="page4"></section>
+    </main>
 
-  </div>
+    <!-- FOOTER CONTAINER -->
+    <footer id="footer"></footer>
 
-    
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="https://animatedicons.co/scripts/embed-animated-icons.js"></script>
-<script src="script.js"></script>
+    <!-- ================= OFFCANVAS SHOPPING CART ================= -->
+    <div class="offcanvas offcanvas-end glass-offcanvas text-dark" tabindex="-1" id="cartOffcanvas" aria-labelledby="cartOffcanvasLabel">
+        <div class="offcanvas-header border-bottom border-secondary border-opacity-25 py-3">
+            <h5 class="offcanvas-title fw-bold text-dark" id="cartOffcanvasLabel">
+                <i class="bi bi-bag-heart-fill text-danger me-2"></i>Your Shopping Bag (<span id="cartDrawerCount">0</span>)
+            </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body d-flex flex-column justify-content-between p-4">
+            <div id="cartItemsList" class="d-flex flex-column gap-3 overflow-auto pe-1" style="max-height: 55vh;">
+                <!-- Cart items rendered by JS -->
+                <div class="text-center py-5 text-muted">
+                    <i class="bi bi-bag-x fs-1 opacity-50 mb-2"></i>
+                    <p>Your shopping bag is empty.</p>
+                </div>
+            </div>
+
+            <!-- Cart Summary & Checkout -->
+            <div class="cart-summary-box p-3 rounded-4 mt-3 bg-light border border-secondary border-opacity-25 shadow-sm">
+                <div class="d-flex justify-content-between text-muted small mb-2">
+                    <span>Subtotal:</span>
+                    <span id="cartSubtotal" class="text-dark fw-bold">₹0</span>
+                </div>
+                <div class="d-flex justify-content-between text-muted small mb-3">
+                    <span>Shipping:</span>
+                    <span class="text-success fw-bold">FREE</span>
+                </div>
+                <div class="d-flex justify-content-between text-dark fw-bold fs-5 mb-3 border-top border-secondary border-opacity-25 pt-2">
+                    <span>Total:</span>
+                    <span id="cartTotal" class="text-primary">₹0</span>
+                </div>
+                <button class="btn btn-primary w-100 py-2 rounded-pill fw-bold shadow" onclick="window.handleCheckout()">
+                    Proceed to Checkout <i class="bi bi-arrow-right ms-1"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ================= QUICK VIEW PRODUCT MODAL ================= -->
+    <div class="modal fade" id="productQuickViewModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content glass-modal border-0 shadow-2xl overflow-hidden">
+                <div class="modal-body p-0">
+                    <div class="row g-0">
+                        <div class="col-md-6">
+                            <img id="modalProductImg" src="" alt="Product" class="w-100 h-100" style="object-fit: cover; min-height: 380px;">
+                        </div>
+                        <div class="col-md-6 p-4 p-lg-5 d-flex flex-column justify-content-between">
+                            <div>
+                                <div class="d-flex justify-content-between align-items-start mb-2">
+                                    <span id="modalProductCategory" class="badge bg-primary-subtle text-primary rounded-pill px-3 py-1"></span>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <h3 id="modalProductName" class="text-dark fw-bold mb-2"></h3>
+                                <div class="d-flex align-items-center gap-2 mb-3">
+                                    <span id="modalProductPrice" class="fs-4 fw-bold text-primary"></span>
+                                    <span id="modalProductOriginalPrice" class="text-muted text-decoration-line-through small"></span>
+                                    <span class="badge bg-success-subtle text-success small rounded-pill">In Stock</span>
+                                </div>
+                                <p id="modalProductDesc" class="text-muted small line-clamp-3 mb-4"></p>
+
+                                <!-- Size Selector -->
+                                <div class="mb-4">
+                                    <label class="form-label text-dark small fw-bold">Select Size:</label>
+                                    <div class="d-flex gap-2">
+                                        <button class="btn-size active">S</button>
+                                        <button class="btn-size">M</button>
+                                        <button class="btn-size">L</button>
+                                        <button class="btn-size">XL</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <button id="modalAddToCartBtn" class="btn btn-primary w-100 py-3 rounded-pill fw-bold shadow">
+                                <i class="bi bi-bag-plus me-2"></i> Add to Bag
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ================= BOOTSTRAP MODALS (Search & Auth) ================= -->
+
+    <!-- Search Modal -->
+    <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content glass-modal border-0 shadow-lg">
+                <div class="modal-header border-0 pb-0">
+                    <h5 class="modal-title fw-bold text-dark" id="searchModalLabel"><i class="bi bi-search me-2 text-primary"></i>Search Kashya Catalog</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body py-4">
+                    <div class="input-group search-input-group">
+                        <span class="input-group-text bg-transparent border-0"><i class="bi bi-search text-muted"></i></span>
+                        <input type="text" class="form-control bg-transparent text-dark border-0" id="searchInput" placeholder="Search kurtis, tops, dresses, lehenga..." autofocus>
+                    </div>
+                    <div class="quick-tags mt-3 d-flex flex-wrap gap-2">
+                        <span class="badge rounded-pill bg-primary-subtle text-primary border border-primary-subtle px-3 py-2 cursor-pointer search-pill">Kurti</span>
+                        <span class="badge rounded-pill bg-primary-subtle text-primary border border-primary-subtle px-3 py-2 cursor-pointer search-pill">Top</span>
+                        <span class="badge rounded-pill bg-primary-subtle text-primary border border-primary-subtle px-3 py-2 cursor-pointer search-pill">Dress</span>
+                        <span class="badge rounded-pill bg-primary-subtle text-primary border border-primary-subtle px-3 py-2 cursor-pointer search-pill">Lehenga</span>
+                    </div>
+                    <div id="searchResults" class="mt-3 text-muted small"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Auth Modal (Login / Register Tabs) -->
+    <div class="modal fade" id="authModal" tabindex="-1" aria-labelledby="authModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content glass-modal border-0 shadow-lg">
+                <div class="modal-header border-0">
+                    <ul class="nav nav-pills w-100 justify-content-center gap-2" id="authTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active rounded-pill px-4" id="login-tab" data-bs-toggle="pill" data-bs-target="#login-panel" type="button" role="tab">Sign In</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link rounded-pill px-4" id="register-tab" data-bs-toggle="pill" data-bs-target="#register-panel" type="button" role="tab">Register</button>
+                        </li>
+                    </ul>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body px-4 py-3">
+                    <div class="tab-content" id="authTabContent">
+                        <!-- Sign In -->
+                        <div class="tab-pane fade show active" id="login-panel" role="tabpanel">
+                            <form id="loginForm" onsubmit="event.preventDefault(); window.handleAuthSubmit('login');">
+                                <div class="mb-3">
+                                    <label class="form-label text-dark small fw-medium">Email address</label>
+                                    <div class="input-group modern-input-group">
+                                        <span class="input-group-text"><i class="bi bi-envelope"></i></span>
+                                        <input type="email" class="form-control text-dark" placeholder="you@example.com" required>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label text-dark small fw-medium">Password</label>
+                                    <div class="input-group modern-input-group">
+                                        <span class="input-group-text"><i class="bi bi-lock"></i></span>
+                                        <input type="password" class="form-control text-dark" placeholder="••••••••" required>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center mb-3">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="rememberMe">
+                                        <label class="form-check-label text-muted small" for="rememberMe">Remember me</label>
+                                    </div>
+                                    <a href="#" class="text-primary small text-decoration-none fw-semibold">Forgot password?</a>
+                                </div>
+                                <button type="submit" class="btn btn-primary w-100 py-2 rounded-pill fw-semibold shadow">Sign In</button>
+                            </form>
+                        </div>
+                        <!-- Register -->
+                        <div class="tab-pane fade" id="register-panel" role="tabpanel">
+                            <form id="registerForm" onsubmit="event.preventDefault(); window.handleAuthSubmit('register');">
+                                <div class="mb-3">
+                                    <label class="form-label text-dark small fw-medium">Full Name</label>
+                                    <div class="input-group modern-input-group">
+                                        <span class="input-group-text"><i class="bi bi-person"></i></span>
+                                        <input type="text" class="form-control text-dark" placeholder="Jane Doe" required>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label text-dark small fw-medium">Email address</label>
+                                    <div class="input-group modern-input-group">
+                                        <span class="input-group-text"><i class="bi bi-envelope"></i></span>
+                                        <input type="email" class="form-control text-dark" placeholder="you@example.com" required>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label text-dark small fw-medium">Create Password</label>
+                                    <div class="input-group modern-input-group">
+                                        <span class="input-group-text"><i class="bi bi-shield-lock"></i></span>
+                                        <input type="password" class="form-control text-dark" placeholder="At least 6 characters" required>
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn btn-primary w-100 py-2 rounded-pill fw-semibold shadow">Create Account</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts: Bootstrap JS bundle + GSAP + Custom script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

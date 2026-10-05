@@ -1,155 +1,247 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>Circular Slider - Blue Theme</title>
+<!-- ================= PAGE 4 CIRCULAR 3D SHOWCASE ================= -->
+<div class="page4-showcase py-5">
+  <div class="container py-4">
+    <!-- Header -->
+    <div class="text-center mb-5">
+      <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-3 py-2 rounded-pill fw-semibold text-uppercase tracking-wide mb-2">
+        <i class="bi bi-collection-play me-1"></i> 3D Gallery Booth
+      </span>
+      <h2 class="text-dark fw-bold display-5">Featured Coutures</h2>
+      <p class="text-muted small">Rotate through our handcrafted artisan wardrobe & add to bag</p>
+    </div>
 
-<!-- <link rel="stylesheet" href="page4.css"> -->
+    <!-- 3D Carousel Stage -->
+    <div class="slider-stage mx-auto">
+      <div class="carousel" id="carousel">
+        <div class="item" data-name="Azure Raw Silk Blouse" data-price="₹1,899">
+          <img src="images/blouse5.jpg" alt="Blouse">
+          <div class="item-overlay">
+            <span class="badge bg-primary rounded-pill mb-1">Blouse</span>
+            <h6 class="text-white fw-bold mb-1">Azure Raw Silk Blouse</h6>
+            <div class="d-flex justify-content-between align-items-center mt-2">
+              <span class="price-tag">₹1,899</span>
+              <button class="btn btn-sm btn-light rounded-pill px-3 py-1 add-to-cart-trigger" onclick="window.addToCart('k-01')">
+                <i class="bi bi-bag-plus"></i> Add
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="item" data-name="Royal Velvet Corset Top" data-price="₹2,299">
+          <img src="images/corser8.jpg" alt="Corset Top">
+          <div class="item-overlay">
+            <span class="badge bg-primary rounded-pill mb-1">Tops</span>
+            <h6 class="text-white fw-bold mb-1">Royal Velvet Corset</h6>
+            <div class="d-flex justify-content-between align-items-center mt-2">
+              <span class="price-tag">₹2,299</span>
+              <button class="btn btn-sm btn-light rounded-pill px-3 py-1 add-to-cart-trigger" onclick="window.addToCart('k-02')">
+                <i class="bi bi-bag-plus"></i> Add
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="item" data-name="Floral Tiered Party Gown" data-price="₹3,499">
+          <img src="images/dress4.jpg" alt="Dress">
+          <div class="item-overlay">
+            <span class="badge bg-primary rounded-pill mb-1">Dress</span>
+            <h6 class="text-white fw-bold mb-1">Floral Tiered Gown</h6>
+            <div class="d-flex justify-content-between align-items-center mt-2">
+              <span class="price-tag">₹3,499</span>
+              <button class="btn btn-sm btn-light rounded-pill px-3 py-1 add-to-cart-trigger" onclick="window.addToCart('k-03')">
+                <i class="bi bi-bag-plus"></i> Add
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="item" data-name="Chikankari Short Kurti" data-price="₹1,599">
+          <img src="images/short kurti.jpg" alt="Kurti">
+          <div class="item-overlay">
+            <span class="badge bg-primary rounded-pill mb-1">Kurti</span>
+            <h6 class="text-white fw-bold mb-1">Chikankari Short Kurti</h6>
+            <div class="d-flex justify-content-between align-items-center mt-2">
+              <span class="price-tag">₹1,599</span>
+              <button class="btn btn-sm btn-light rounded-pill px-3 py-1 add-to-cart-trigger" onclick="window.addToCart('k-04')">
+                <i class="bi bi-bag-plus"></i> Add
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="item" data-name="Embroidered Flared Anarkali" data-price="₹2,199">
+          <img src="images/kuri2.jpg" alt="Anarkali">
+          <div class="item-overlay">
+            <span class="badge bg-primary rounded-pill mb-1">Kurti</span>
+            <h6 class="text-white fw-bold mb-1">Flared Anarkali Kurti</h6>
+            <div class="d-flex justify-content-between align-items-center mt-2">
+              <span class="price-tag">₹2,199</span>
+              <button class="btn btn-sm btn-light rounded-pill px-3 py-1 add-to-cart-trigger" onclick="window.addToCart('k-05')">
+                <i class="bi bi-bag-plus"></i> Add
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="item" data-name="Midnight Blue Festive Lehenga" data-price="₹6,999">
+          <img src="images/lehnga6.jpg" alt="Lehenga">
+          <div class="item-overlay">
+            <span class="badge bg-primary rounded-pill mb-1">Festive</span>
+            <h6 class="text-white fw-bold mb-1">Midnight Blue Lehenga</h6>
+            <div class="d-flex justify-content-between align-items-center mt-2">
+              <span class="price-tag">₹6,999</span>
+              <button class="btn btn-sm btn-light rounded-pill px-3 py-1 add-to-cart-trigger" onclick="window.addToCart('k-06')">
+                <i class="bi bi-bag-plus"></i> Add
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="item" data-name="Ivory Satin Designer Kurti" data-price="₹1,899">
+          <img src="images/hii.jpg" alt="Ivory Kurti">
+          <div class="item-overlay">
+            <span class="badge bg-primary rounded-pill mb-1">Kurti</span>
+            <h6 class="text-white fw-bold mb-1">Ivory Satin Kurti</h6>
+            <div class="d-flex justify-content-between align-items-center mt-2">
+              <span class="price-tag">₹1,899</span>
+              <button class="btn btn-sm btn-light rounded-pill px-3 py-1 add-to-cart-trigger" onclick="window.addToCart('k-09')">
+                <i class="bi bi-bag-plus"></i> Add
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="item" data-name="Chic Evening Peplum Top" data-price="₹1,799">
+          <img src="images/top3.jpg" alt="Peplum Top">
+          <div class="item-overlay">
+            <span class="badge bg-primary rounded-pill mb-1">Tops</span>
+            <h6 class="text-white fw-bold mb-1">Evening Peplum Top</h6>
+            <div class="d-flex justify-content-between align-items-center mt-2">
+              <span class="price-tag">₹1,799</span>
+              <button class="btn btn-sm btn-light rounded-pill px-3 py-1 add-to-cart-trigger" onclick="window.addToCart('k-08')">
+                <i class="bi bi-bag-plus"></i> Add
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Control Buttons -->
+      <div class="showcase-nav-btns d-flex justify-content-center gap-3">
+        <button id="prev" class="btn-circle-nav" aria-label="Previous Slide">
+          <i class="bi bi-chevron-left"></i>
+        </button>
+        <button id="next" class="btn-circle-nav" aria-label="Next Slide">
+          <i class="bi bi-chevron-right"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
 
 <style>
-/* ================= PAGE 4 SLIDER ================= */
-
-#page4{
-    height: 80%;
-    width:100%;
-    padding:80px 0;
-
-    background:#3d2068;   /* Light Blue Background */
-
-    display:flex;
-    justify-content:center;
-    align-items:center;
-
-    overflow:hidden;
+.page4-showcase {
+  background: linear-gradient(180deg, #F0F6FF 0%, #E2EDFA 100%);
+  position: relative;
+  overflow: hidden;
+  min-height: 650px;
 }
 
-/* -------- slider container -------- */
-
-#page4 .slider{
-    position:relative;
-    width:900px;
-    max-width:95%;
-    height:420px;
-    perspective:1200px;
+.slider-stage {
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+  height: 440px;
+  perspective: 1300px;
 }
 
-/* -------- rotating carousel -------- */
-
-#page4 .carousel{
-    width:100%;
-    height:100%;
-    position:absolute;
-    transform-style:preserve-3d;
-background-color: bl;
-    transition:transform 0.9s cubic-bezier(.25,.8,.25,1);
+.carousel {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: transform 0.9s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
-/* -------- cards -------- */
-
-#page4 .item{
-    position:absolute;
-    width:260px;
-    height:340px;
-
-    left:50%;
-    top:50%;
-    margin:-170px -130px;
-
-    border-radius:18px;
-    overflow:hidden;
-
-    background:#ffffff;
-    box-shadow:0 15px 35px rgba(30,58,95,.15);
-
-    /* opacity:0.6; */
-
-    transition: 
-        transform 0.9s cubic-bezier(.25,.8,.25,1),
-        opacity 0.9s ease,
-        box-shadow 0.4s ease;
+.carousel .item {
+  position: absolute;
+  width: 270px;
+  height: 360px;
+  left: 50%;
+  top: 50%;
+  margin: -180px -135px;
+  border-radius: 20px;
+  overflow: hidden;
+  background: #FFFFFF;
+  border: 3px solid #FFFFFF;
+  box-shadow: 0 20px 40px rgba(30, 58, 138, 0.15);
+  transition: transform 0.9s cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 0.4s ease;
 }
 
-/* center image look (JS will control scale + zIndex) */
-#page4 .item.active{
-    opacity:1;
-    box-shadow:0 25px 50px rgba(30,58,95,.25);
+.carousel .item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s ease;
 }
 
-/* -------- images -------- */
-
-#page4 .item img{
-    width:100%;
-    height:100%;
-    object-fit:cover;
-    display:block;
-
-    transition: scale 0.4s ease;
+.carousel .item:hover img {
+  transform: scale(1.1);
 }
 
-/* smooth hover zoom without breaking 3D */
-#page4 .item:hover img{
-    scale:1.5; 
+.item-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 18px 16px;
+  background: linear-gradient(to top, rgba(15, 23, 42, 0.9) 0%, rgba(15, 23, 42, 0.5) 60%, transparent 100%);
+  z-index: 5;
 }
 
-/* -------- buttons -------- */
-
-#page4 .btns{
-    position:absolute;
-    bottom:-70px;
-    width:100%;
-
-    display:flex;
-    justify-content:center;
-    gap:20px;
+.price-tag {
+  color: #93C5FD;
+  font-weight: 700;
+  font-size: 15px;
 }
 
-#page4 button{
-    width:45px;
-    height:45px;
-
-    border-radius:50%;
-    border:none;
-
-    font-size:20px;
-    cursor:pointer;
-
-    background:#1E3A5F;   /* Deep Navy */
-    color:#ffffff;
-
-    box-shadow:0 6px 15px rgba(30,58,95,.25);
-    transition:all 0.3s ease;
+.showcase-nav-btns {
+  position: absolute;
+  bottom: -25px;
+  width: 100%;
+  z-index: 20;
 }
 
-#page4 button:hover{
-    transform:scale(1.2);
-    background:#3B82C4;   /* Accent Blue */
+.btn-circle-nav {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: #2563EB;
+  border: none;
+  color: #FFFFFF;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 25px rgba(37, 99, 235, 0.3);
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
+.btn-circle-nav:hover {
+  background: #1D4ED8;
+  transform: scale(1.15) translateY(-2px);
+  box-shadow: 0 12px 30px rgba(37, 99, 235, 0.5);
+}
+
+@media (max-width: 768px) {
+  .slider-stage {
+    height: 380px;
+  }
+  .carousel .item {
+    width: 230px;
+    height: 310px;
+    margin: -155px -115px;
+  }
+}
 </style>
-</head>
-
-<body>
-
-<div id="page4">
-
-<div class="slider">
-
-    <div class="carousel" id="carousel">
-        <div class="item"><img src="images/blouse5.jpg"></div>
-        <div class="item"><img src="images/corser8.jpg"></div>
-        <div class="item"><img src="images/dress4.jpg"></div>
-        <div class="item"><img src="images/kuri2.jpg"></div>
-        <div class="item"><img src="images/lehnga6.jpg"></div>
-    </div>
-
-    <div class="btns">
-        <button id="prev">←</button>
-        <button id="next">→</button>
-    </div>
-
-</div>
-
-</div>
-
-</body>
-</html>
